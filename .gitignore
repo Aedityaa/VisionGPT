@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+
+# Data files
+data/
+*.json
+*.jpg
+*.png
+
+# Models (they auto-download)
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Huggingface cache
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
